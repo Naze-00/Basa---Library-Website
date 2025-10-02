@@ -1,4 +1,5 @@
 **Basa: A Full-Stack Library and Bookshop Website**
+
 Basa is a fully functional, responsive web application for a library and bookshop, designed to make library services more convenient and accessible. This full-stack project allows users to browse a book catalog, reserve materials, manage their accounts, and contact the administrators. The user interface is clean, engaging, and built with modern web technologies on top of a robust PHP backend.
 
 **Technologies Used**
@@ -17,3 +18,4 @@ Back-End:
 
 Environment:
   - XAMPP / WAMP: A local server environment for running Apache, PHP, and MySQL.
+
