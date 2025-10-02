@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap");
+
+:root {
+  --x-dark: #212529;
+  --x-brand: #756ab6;
+  --x-br-light: #ac87c5;
+  --x-br-rgb: 239, 239, 240;
+  --x-br-rgb2: 78, 87, 212;
+  --x-body: #727272;
+  --font-base1: "Bebas Neue", sans-serif;
+  --font-base2: "Quicksand", sans-serif;
+  --font-base3: "Assistant", sans-serif;
+  --font-base4: "Changa", sans-serif;
+  --box-shaddow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+  --transition: all 0.5s ease;
+}
+
+body {
+  font-family: var(--font-base1);
+  line-height: 1.7;
+  color: var(--x-body);
+}
+
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3 {
+  font-weight: 600;
+  color: var(--x-dark);
+}
+
+h4,
+h5,
+h6,
+.h4,
+.h5,
+.h6 {
+  font-family: var(--font-base4);
+  color: var(--x-dark);
+}
+
+p {
+  font-family: var(--font-base3);
+}
+
+.basa {
+  color: var(--x-brand);
+}
+
+a {
+  text-decoration: none;
+  color: var(--x-brand);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--x-br-light);
+}
+
+img {
+  max-width: 140px;
+  height: auto;
+}
+
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.shadow {
+  box-shadow: var(--box-shaddow);
+}
+
+.navbar {
+  box-shadow: var(--box-shaddow);
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  color: var(--x-dark);
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--x-brand);
+}
+
+.btn {
+  font-family: var(--font-base2);
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 10px 24px;
+}
+
+.btn-brand {
+  background-color: var(--x-brand);
+  color: white;
+  border-color: var(--x-brand);
+}
+
+.btn-brand:hover {
+  background-color: var(--x-br-light);
+  border-color: var(--x-br-light);
+  color: white;
+}
+
+table{
+  font-family: var(--font-base4);
+
+}
